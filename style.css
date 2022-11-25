@@ -6,7 +6,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    /* background-image:url(back4.png); */
+    /* background-image:url(back.png); */
     background-size: cover;
     background-position: center;
 }
@@ -145,3 +145,20 @@ button:hover{
     color: white;
 }
 
+
+@media screen and (max-width: 1299px) {
+    .banner{
+        background-color: green;
+    }
+}
+@media screen and (max-width: 768px) {
+    .banner{
+        background-color: red;
+    }
+    
+}
+@media screen and (max-width: 576px) {
+    .banner{
+        background-color: blue;
+    }
+}
